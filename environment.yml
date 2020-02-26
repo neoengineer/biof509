@@ -1,0 +1,21 @@
+name: biof509
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - matplotlib
+  - pandas
+  - seaborn
+  - tensorflow
+  - keras
+  - rise
+  - nodejs    y# needed for jupyter lab build
+  - nom
+  - pip:
+    - jupyterlab
+    - jupyterlab-git
