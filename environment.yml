@@ -14,8 +14,7 @@ dependencies:
   - tensorflow
   - keras
   - rise
-  - nodejs    y# needed for jupyter lab build
-  - nom
+  - nodejs    # needed for jupyter lab build
   - pip:
     - jupyterlab
     - jupyterlab-git
